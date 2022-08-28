@@ -67,6 +67,7 @@ $RECYCLE.BIN/
 
 .tmp
 *.log
+!strapi4.sql
 *.sql
 *.sqlite
 *.sqlite3
