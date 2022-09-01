@@ -1,9 +1,11 @@
-'use strict';
+"use strict";
 
 /**
  * post service
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+// add custom route
 
-module.exports = createCoreService('api::post.post');
+const { createCoreService } = require("@strapi/strapi").factories;
+
+module.exports = createCoreService("api::post.post");
